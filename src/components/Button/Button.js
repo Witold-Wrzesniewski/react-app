@@ -1,7 +1,7 @@
 import styles from './Button.module.scss'
 
-const TextInput = props => {
+const Button = props => {
     return (<button className={styles.button}>{props.text}</button>);
 };
 
-export default TextInput;
+export default Button;
