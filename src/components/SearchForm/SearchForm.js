@@ -1,9 +1,11 @@
 import styles from './SearchForm.module.scss';
+import TextInput from '../TextInput/TextInput';
 
 const SearchForm = () => {
     return (
         <form className={styles.searchForm}>
-            <input className={styles.input} type="text" />
+            <TextInput placeholder="Search…" />
+            <TextInput placeholder="Add new column" />
             <button className={styles.button}>Search</button>
         </form>
     );
